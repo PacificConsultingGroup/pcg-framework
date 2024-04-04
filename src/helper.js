@@ -1,7 +1,7 @@
 (function () {
     const Helper = function () {
 
-        // const path = require('path');
+        const path = require('path');
         const fs = require('fs-extra');
         // const crypto = require('crypto');
         // const lodash = require('lodash');
