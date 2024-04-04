@@ -6,13 +6,13 @@ In your package.json
 
 ```json
 "dependencies": {
-    "pcgframework": "PacificConsultingGroup/pcg-framework"
+    "pcg-framework": "PacificConsultingGroup/pcg-framework"
 }
 ```
 
 ## Using PCG Framework
 ```js
-const Helper = require('pcgframework/helper');
+const Helper = require('pcg-framework/helper');
 const helper = new Helper();
 
 let test = null;

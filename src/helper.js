@@ -21,6 +21,10 @@
             return (typeof val === 'undefined' || val == null);
         }
 
+        Helper.prototype.writeFile = function (userpath, data) {
+            fs.writeFileSync(path.join(userpath), data);
+        }
+
         // Helper.prototype.isDev = () => {
         //     return (this.isNull(process.env['ENVIRONMENT']) || process.env['ENVIRONMENT'] === 'dev');
         // };
