@@ -1,0 +1,17 @@
+{
+  "name": "pcg-framework",
+  "version": "1.0.0",
+  "description": "PCG Framework Module",
+  "keywords": ["utility", "framework", "pcg", "database"],
+  "author": "Thomas Lim",
+  "license": "SEE LICENSE.md",
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "fs-extra": "^11.2.0",
+    "lodash": "^4.17.21"
+  }
+}
